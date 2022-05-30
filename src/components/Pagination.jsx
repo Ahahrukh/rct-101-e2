@@ -2,6 +2,10 @@ import React from "react";
 
 const Pagination = () => {
   // TODO: Remove below const and instead import them from chakra
+
+  const [pageNum, setPageNum] = useState(1);
+  const [limit, setLimit] = useState(3);
+
   const Button = () => <div />;
   const ButtonGroup = () => <div />;
   const Select = () => <div />;
